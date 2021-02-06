@@ -31,6 +31,8 @@ const burgerIngredient = (props) => {
     default:
       ingredient = null;
   }
+
+  return ingredient;
 };
 
 burgerIngredient.propTypes = {
